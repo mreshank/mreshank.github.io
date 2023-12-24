@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Oregon";
+    src: url("fnt/Oregon.ttf");
+}
+@font-face {
+    font-family: "Invasible";
+    src: url("fnt/Invasible.ttf");
+}
+@font-face {
+    font-family: "Techno";
+    src: url("fnt/Techno\ Space.ttf");
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-style: bold;
+    color: white;
+    background-color: rgb(28, 28, 28);
+    font-family: Invasible;
+}
+section {
+    margin-top: 5%;
+}
+.section-title {
+    font-size: 4.5vw;
+    margin: 0.7em;
+    margin-top: 6.8%;
+    margin-bottom: 3.5%;
+}
+
+#navigation-section>nav {
+    display: flex; 
+    width: 100%;
+    font-size: 2.5vw;
+    margin-top: -2.5%;
+    margin-bottom: -2.5%;
+    padding-inline: 5vw;
+    border-radius: 3%;
+    background-color: rgba(20, 20, 20, 0.314);
+}
+#navigation-hyperlinks {
+    position: relative;
+    width: 65%;
+    justify-content: baseline;
+    left: 10%;
+    background-color: aqua;
+    height: auto;
+}
+#navigation-hyperlinks>a {
+    font-size: small;
+    position: relative;
+    top: 35%;
+    left: 10%;
+    margin-inline: 0.5vw;
+    padding: 1%;
+}
+
+#intro-image-and-text {
+    background-image: url(img/cover.png); 
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    font-family: Techno;
+}
+#intro-image {
+    width: 50%;
+} 
+#intro-text {
+    padding: 4%;
+    border-radius: 15%;
+    background-color: rgba(80, 80, 80, 0.353) ;
+    align-self: center;
+    font-size: 3.5vw; 
+}
+
+#all-acheivements, #all-socials {
+    display: flex;
+    margin-inline: 3%;
+}
+.acheivement {
+    padding: 5%;
+    border-radius: 15%;
+    background-color: rgba(240, 248, 255, 0.323);
+    justify-content: center;
+    font-size: 3.5vw;
+    margin-inline: 2%;
+}
+
+.my-social>a>img {
+    width: 50%;
+    opacity: 75%;
+}
+
+#contact-me {
+    display: flex;
+    margin: 10%;
+    padding-inline: 12%;
+    justify-content: center;
+    background-color: aqua;
+}
+#contact-me>form>input {
+    font-style: bold;
+    color: white;
+    background-color: black;
+    border-radius: 1.5%;
+    /* border-bottom-right-radius: 50%; */
+    /* border-start-end-radius: 50%; */
+    padding: 3.5%;
+    width: 100%;
+    margin: 2%;
+}
