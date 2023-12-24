@@ -10,6 +10,9 @@
     font-family: "Techno";
     src: url("fonts/Techno\ Space.ttf");
 }
+
+/* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
+
 * {
     box-sizing: border-box;
 }
@@ -29,14 +32,21 @@ section {
     margin-bottom: 3.5%;
 }
 
+/* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
+
+.navigation-section {
+    position: absolute;
+    top: 0%;
+}
 #navigation-section>nav {
     display: flex; 
     width: 100%;
     font-size: 2.5vw;
-    margin-top: -2.5%;
+    margin-top: -5%;
     margin-bottom: -2.5%;
     padding-inline: 5vw;
-    border-radius: 3%;
+    border-radius: 1.5%;
+    /* background-color: rgba(255, 0, 0, 0.314); */
     background-color: rgba(20, 20, 20, 0.314);
 }
 #navigation-hyperlinks {
@@ -44,17 +54,22 @@ section {
     width: 65%;
     justify-content: baseline;
     left: 10%;
-    background-color: aqua;
+    /* background-color: aqua; */
     height: auto;
+    padding-left: 10%;
 }
 #navigation-hyperlinks>a {
-    font-size: small;
+    font-size: 1.75vw;
     position: relative;
     top: 35%;
     left: 10%;
     margin-inline: 0.5vw;
     padding: 1%;
+    text-decoration: solid ;
+    color: rgba(211, 211, 211, 0.968);
 }
+
+/* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
 
 #intro-image-and-text {
     background-image: url(images/cover.png); 
@@ -75,7 +90,11 @@ section {
     font-size: 3.5vw; 
 }
 
+/* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
+
 #all-acheivements, #all-socials {
+    justify-content: center;
+    background-color: aqua;
     display: flex;
     margin-inline: 3%;
 }
@@ -88,17 +107,24 @@ section {
     margin-inline: 2%;
 }
 
+/* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
+
 .my-social>a>img {
     width: 50%;
     opacity: 75%;
 }
 
+/* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
+
 #contact-me {
     display: flex;
     margin: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-inline: 12%;
+    border-radius: 2.5%;
     justify-content: center;
-    background-color: aqua;
+    background-color: rgba(67, 67, 67, 0.394);
 }
 #contact-me>form>input {
     font-style: bold;
