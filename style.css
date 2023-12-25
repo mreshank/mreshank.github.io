@@ -88,12 +88,13 @@ section {
     background-repeat: no-repeat;
     /* background-size: 100%; */
     /* background-clip: border-box; */
-    /* background-size: cover; */
+    background-size: cover;
     /* background-blend-mode: ; */
     display: flex;
     /* width: 100%; */
-    min-width: 125%;
-    height: fit-content;
+    width: 100%;
+    height: auto;
+    /* min-height: fit-content; */
     color: white;
     font-family: Techno;
 }
