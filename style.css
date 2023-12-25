@@ -229,7 +229,7 @@ section {
     min-width: 35%;
     cursor: pointer;
 
-    box-shadow: 0 0 1.75vw 0 rgba(255, 255, 255, 0.896);
+    box-shadow: 0 0 1.8vw 0 rgba(219, 219, 219, 0.763);
     transition: 0.3s ease box-shadow;
 }
 #contact-me>form>input:hover {
