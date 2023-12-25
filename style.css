@@ -22,6 +22,10 @@
     font-family: "Excelorate";
     src: url("fonts/Excelorate-Font.otf");
 }
+@keyframes decreaseOpacity {
+    from {  background-color: rgb(17, 17, 17);  } 
+    to   {  background-color: rgb(28, 28, 28);  }
+}
 
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
 
@@ -33,6 +37,8 @@ body {
     color: white;
     background-color: rgb(28, 28, 28);
     font-family: Invasible;
+    scroll-behavior: smooth;
+    animation: decreaseOpacity 5s ease-in-out;
 }
 section {
     margin-top: 5%;
@@ -43,12 +49,28 @@ section {
     margin-top: 6.8%;
     margin-bottom: 3.5%;
 }
+#color-switch-button {
+    padding: 2.5%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    z-index: 999;
+    top: 93.75%;
+    right: 1.25%;
+    background: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("images/color-switch-c.png");
+}
 
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
 
-.navigation-section {
-    position: absolute;
+#navigation-section {
+    /* position: absolute; */
+    position: sticky;
     top: 0%;
+    /* background-color: aqua; */
 }
 #navigation-section>nav {
     display: flex; 
@@ -97,9 +119,14 @@ section {
 #intro-text {
     padding: 4%;
     border-radius: 15%;
-    background-color: rgba(80, 80, 80, 0.353) ;
+    box-shadow: 0 0 1vw 0 rgba(164, 164, 164, 0.332);
+    background-color: rgba(49, 49, 49, 0.353) ;
+    /* blur */
     align-self: center;
     font-size: 3.5vw; 
+    font-weight: 900;
+    -webkit-text-stroke-width: 0.75vw; 
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.045);
 }
 
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
@@ -114,9 +141,11 @@ section {
     padding: 5%;
     border-radius: 15%;
     background-color: rgba(240, 248, 255, 0.323);
+    box-shadow: 0 0 1.75vw 0 rgb(17, 17, 17);
     justify-content: center;
     font-size: 3.5vw;
     margin-inline: 2%;
+    cursor: pointer;
 }
 
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
@@ -126,6 +155,13 @@ section {
     justify-self: center;
     width: 65%;
     opacity: 75%;
+    cursor: pointer;
+    border-radius: 510%;
+    box-shadow: 0 0 1.75vw 0 rgba(255, 255, 255, 0.896);
+    transition: 0.3s ease box-shadow;
+}
+.my-social>a>img:hover {
+    box-shadow: 0 0 1vw 0 rgba(213, 208, 197, 0.66);
 }
 #Instagram {
     margin-left: 5%;
@@ -142,9 +178,11 @@ section {
     margin: 10%;
     margin-top: 1.75%;
     padding: 5vw;
-    border-radius: 0.5%;
+    border-radius: 1.5%;
     justify-content: center;
+    box-shadow: 0 0 1.75vw 0 rgb(93, 93, 93);
     background-color: rgba(67, 67, 67, 0.394);
+    /* animation: decreaseOpacity 0.75s ease-in-out; */
 }
 #contact-me>form>div>div>input, #contact-me>form>input, #contact-me>form>div>textarea {
     color: white;
@@ -174,10 +212,11 @@ section {
 #contact-me>form>div>textarea {
     font-size: 1.8vw;
     min-height: 25%;
+    max-height: 20vw;
     min-width: 25%;
     margin-top: 3%;
     margin-bottom: 3%;
-    border-radius: 15%;
+    border-radius: 12%;
 }
 #contact-me>form>input {
     margin-top: 3%;
@@ -188,4 +227,11 @@ section {
     position: relative;
     left: 32.5%;
     min-width: 35%;
+    cursor: pointer;
+
+    box-shadow: 0 0 1.75vw 0 rgba(255, 255, 255, 0.896);
+    transition: 0.3s ease box-shadow;
+}
+#contact-me>form>input:hover {
+    box-shadow: 0 0 1vw 0 rgba(255, 250, 240, 0.66);
 }
