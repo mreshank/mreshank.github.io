@@ -121,7 +121,7 @@ section {
     border-radius: 15%;
     box-shadow: 0 0 1vw 0 rgba(164, 164, 164, 0.332);
     background-color: rgba(49, 49, 49, 0.353) ;
-    /* blur */
+    backdrop-filter: blur(0.375vw);
     align-self: center;
     font-size: 3.5vw; 
     font-weight: 900;
