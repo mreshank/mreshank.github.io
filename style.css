@@ -86,9 +86,13 @@ section {
 #intro-image-and-text {
     background-image: url(images/cover.png); 
     background-repeat: no-repeat;
+    /* background-size: 100%; */
+    /* background-clip: border-box; */
     /* background-size: cover; */
+    /* background-blend-mode: ; */
     display: flex;
-    width: 100%;
+    /* width: 100%; */
+    min-width: 100%;
     height: fit-content;
     color: white;
     font-family: Techno;
