@@ -92,7 +92,7 @@ section {
     /* background-blend-mode: ; */
     display: flex;
     /* width: 100%; */
-    min-width: 100%;
+    min-width: 125%;
     height: fit-content;
     color: white;
     font-family: Techno;
