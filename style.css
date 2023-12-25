@@ -109,7 +109,7 @@ section {
 #all-acheivements, #all-socials {
     padding-inline: 3%;
     justify-content: center;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     margin-inline: 3%;
 }
@@ -163,7 +163,7 @@ section {
     width: 100%;
     max-height: 25vw;
 
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 #contact-me>form>div>div, #contact-me>form>div>textarea {
     width: 40%;
@@ -172,7 +172,7 @@ section {
     justify-content: center;
     margin: 3%;
 
-    background-color: red;
+    /* background-color: red; */
 }
 #contact-me>form>div>div>input {
     font-size: 1.75vw;
@@ -189,7 +189,7 @@ section {
     margin-bottom: 3%;
     border-radius: 15%;
 
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 #contact-me>form>input {
     margin-top: 3%;
@@ -200,5 +200,5 @@ section {
     position: relative;
     left: 35%;
     min-width: 35%;
-    background-color: rgb(21, 255, 0);
+    /* background-color: rgb(21, 255, 0); */
 }
