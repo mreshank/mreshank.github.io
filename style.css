@@ -10,6 +10,18 @@
     font-family: "Techno";
     src: url("fonts/Techno\ Space.ttf");
 }
+@font-face {
+    font-family: "Davinci";
+    src: url("fonts/Davinci.ttf");
+}
+@font-face {
+    font-family: "FontAwesome";
+    src: url("fonts/FontAwesome.otf");
+}
+@font-face {
+    font-family: "Excelorate";
+    src: url("fonts/Excelorate-Font.otf");
+}
 
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
 
@@ -93,6 +105,7 @@ section {
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
 
 #all-acheivements, #all-socials {
+    padding-inline: 3%;
     justify-content: center;
     background-color: aqua;
     display: flex;
@@ -110,30 +123,73 @@ section {
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
 
 .my-social>a>img {
-    width: 50%;
+    position: relative;
+    justify-self: center;
+    width: 65%;
     opacity: 75%;
+}
+#Instagram {
+    margin-left: 5%;
+}
+#LinkTree {
+    margin-right: -3%;
 }
 
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
 
 #contact-me {
     display: flex;
+    /* font-family: Davinci; */
+    flex-direction: column;
     margin: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-inline: 12%;
-    border-radius: 2.5%;
+    padding: 5vw;
+    border-radius: 1%;
     justify-content: center;
     background-color: rgba(67, 67, 67, 0.394);
 }
-#contact-me>form>input {
+#contact-me>form>div>div>input, #contact-me>form>input, #contact-me>form>div>textarea {
     font-style: bold;
     color: white;
-    background-color: black;
-    border-radius: 1.5%;
-    /* border-bottom-right-radius: 50%; */
-    /* border-start-end-radius: 50%; */
+    background-color: rgba(24, 24, 24, 0.708);
     padding: 3.5%;
+}
+#contact-me>form>div {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    margin: 2%;
+
+    background-color: aqua;
+}
+#contact-me>form>div>div, #contact-me>form>div>textarea {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3%;
+
+    background-color: red;
+}
+#contact-me>form>div>div>input {
+    min-height: 25%;
+    border-radius: 4%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#contact-me>form>div>textarea {
+    min-height: 25%;
+    border-radius: 4%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 10%;
+}
+#contact-me>form>input {
+    margin-top: 3%;
+    font-family: Davinci;
+    font-size: 2.25vw;
+    font-weight: 900;
+    border-radius: 5%;
+    position: relative;
+    left: 35%;
+    min-width: 35%;
+    background-color: rgb(21, 255, 0);
 }
