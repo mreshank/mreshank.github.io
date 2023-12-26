@@ -1,13 +1,19 @@
-// const { url } = require("inspector");
+function hello() {
+    alert("Hello, World!");
+}
 
-let colorControlSwitch = 0;
+let colorControlSwitch = 0
+
 const body = document.body;
 const navSection = document.getElementById("navigation-section");
 const contactSection = document.getElementById("contact-section");
 
-// Function to handle the color switch button click event
 function handleColorSwitch() {
-    if (colorControlSwitch == 0) {
+
+    alert(colorControlSwitch)
+
+    if(colorControlSwitch == 0) {
+        colorControlSwitch = 1
         body.style.color = "#000000";
         // document.body.style.backgroundColor = "#a2c0ed";
         body.style.backgroundColor = "#f8feff";
@@ -24,25 +30,71 @@ function handleColorSwitch() {
         navSection.style.color = "#ffffff";
         navSection.nav.style.backgroundColor = "#000000";
         // document.getElementById("Instagram").src = "./images/instagram.c.png";
-        
         // contactSection.div.form.div.div.input.style.backgroundColor = contactSection.div.form.input.style.backgroundColor = contactSection.div.form.div.textarea.style.backgroundColor = "#cfcfcf";
-        
-        colorControlSwitch = 1;
     } else {
+        colorControlSwitch = 0
         document.body.style.color = "#ffffff";
         document.body.style.backgroundColor = "#1c1c1c";
-        document.getElementById("navigation-section").nav.backgroundColor = "#1414145e";
+        // document.getElementById("navigation-section").nav.backgroundColor = "#1414145e";
         document.getElementById("Instagram").src = "images/instagram.png";
         document.getElementById("Instagram").src = "instagram.png";
-        colorControlSwitch = 0;
     }
 }
 
-// Get the color switch button element
-const colorSwitchButton = document.getElementById('color-switch-button');
 
-// Add event listener to the color switch button
-colorSwitchButton.addEventListener("click", handleColorSwitch);
+const { url } = require("inspector");
+
+// let colorControlSwitch = 0;
+
+// const body = document.body;
+// const navSection = document.getElementById("navigation-section");
+// const contactSection = document.getElementById("contact-section");
+
+// // Function to handle the color switch button click event
+// function handleColorSwitch() {
+//     console.log(colorControlSwitch);
+//     if (colorControlSwitch == 0) {
+//         body.style.color = "#000000";
+//         // document.body.style.backgroundColor = "#a2c0ed";
+//         body.style.backgroundColor = "#f8feff";
+//         document.getElementById("color-switch-button").style.backgroundImage = "url(./images/colorSwitch.b.png)";
+//         document.getElementById("intro-image").src = "./images/profile.c.png"
+//         document.getElementById("Instagram").src = "./images/instagram.c.png";
+//         document.getElementById("LinkedIn").src = "./images/linkedin.c.png";
+//         document.getElementById("GitHub").src = "./images/github.c.png";
+//         document.getElementById("YouTube").src = "./images/youtube.c.png";
+//         document.getElementById("WhatsApp").src = "./images/whatsapp.c.png";
+//         document.getElementById("LinkTree").src = "./images/linktree.c.png";
+//         document.getElementById("intro-image-and-text").style.backgroundImage = "url(./images/cover.bw02.png)";
+//         // document.getElementById("intro-text").style.color = "#f0f0f0";
+//         navSection.style.color = "#ffffff";
+//         navSection.nav.style.backgroundColor = "#000000";
+//         // document.getElementById("Instagram").src = "./images/instagram.c.png";
+
+//         // contactSection.div.form.div.div.input.style.backgroundColor = contactSection.div.form.input.style.backgroundColor = contactSection.div.form.div.textarea.style.backgroundColor = "#cfcfcf";
+        
+//         colorControlSwitch = 1;
+//     } else {
+//         document.body.style.color = "#ffffff";
+//         document.body.style.backgroundColor = "#1c1c1c";
+//         // document.getElementById("navigation-section").nav.backgroundColor = "#1414145e";
+//         document.getElementById("Instagram").src = "images/instagram.png";
+//         document.getElementById("Instagram").src = "instagram.png";
+//         colorControlSwitch = 0;
+//     }
+// }
+
+// // Get the color switch button element
+// const colorSwitchButton = document.getElementById('color-switch-button');
+
+// // Add event listener to the color switch button
+// colorSwitchButton.addEventListener("click", handleColorSwitch);
+
+
+
+
+
+
 
 
 
@@ -68,3 +120,42 @@ colorSwitchButton.addEventListener("click", handleColorSwitch);
 //     document.getElementById("intro-image").content = url("images/profile.color.png");
 //     document.getElementById("intro-image-and-text").backgroundImage = url("images/cover.color.jpg");
 // }
+
+
+
+
+
+
+// function handleColorSwitch() {
+//         console.log(colorControlSwitch);
+//         if (colorControlSwitch == 0) {
+//             body.style.color = "#000000";
+//             // document.body.style.backgroundColor = "#a2c0ed";
+//             body.style.backgroundColor = "#f8feff";
+//             document.getElementById("color-switch-button").style.backgroundImage = "url(./images/colorSwitch.b.png)";
+//             document.getElementById("intro-image").src = "./images/profile.c.png"
+//             document.getElementById("Instagram").src = "./images/instagram.c.png";
+//             document.getElementById("LinkedIn").src = "./images/linkedin.c.png";
+//             document.getElementById("GitHub").src = "./images/github.c.png";
+//             document.getElementById("YouTube").src = "./images/youtube.c.png";
+//             document.getElementById("WhatsApp").src = "./images/whatsapp.c.png";
+//             document.getElementById("LinkTree").src = "./images/linktree.c.png";
+//             document.getElementById("intro-image-and-text").style.backgroundImage = "url(./images/cover.bw02.png)";
+//             // document.getElementById("intro-text").style.color = "#f0f0f0";
+//             navSection.style.color = "#ffffff";
+//             navSection.nav.style.backgroundColor = "#000000";
+//             // document.getElementById("Instagram").src = "./images/instagram.c.png";
+    
+//             // contactSection.div.form.div.div.input.style.backgroundColor = contactSection.div.form.input.style.backgroundColor = contactSection.div.form.div.textarea.style.backgroundColor = "#cfcfcf";
+            
+//             colorControlSwitch = 1;
+//         } else {
+//             document.body.style.color = "#ffffff";
+//             document.body.style.backgroundColor = "#1c1c1c";
+//             // document.getElementById("navigation-section").nav.backgroundColor = "#1414145e";
+//             document.getElementById("Instagram").src = "images/instagram.png";
+//             document.getElementById("Instagram").src = "instagram.png";
+//             colorControlSwitch = 0;
+//         }
+//     }
+    

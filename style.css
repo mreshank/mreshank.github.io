@@ -40,6 +40,9 @@ body {
     font-family: Invasible;
     scroll-behavior: smooth;
     animation: decreaseOpacityDark 1.25s ease-in-out;
+    /* display: grid; */
+  /* grid-template-columns: auto auto;  */
+    /* scroll-behavior: smooth; */
 }
 section {
     margin-top: 5%;
@@ -62,6 +65,7 @@ section {
     background: none;
     background-size: contain;
     background-repeat: no-repeat;
+    /* margin-top: calc(100vh + var(--offset)); */
 }
 
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
