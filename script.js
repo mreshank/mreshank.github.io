@@ -1,13 +1,16 @@
 // const { url } = require("inspector");
 
 let colorControlSwitch = 0;
+const body = document.body;
+const navSection = document.getElementById("navigation-section");
+const contactSection = document.getElementById("contact-section");
 
 // Function to handle the color switch button click event
 function handleColorSwitch() {
     if (colorControlSwitch == 0) {
-        document.body.style.color = "#000000";
+        body.style.color = "#000000";
         // document.body.style.backgroundColor = "#a2c0ed";
-        document.body.style.backgroundColor = "#f8feff";
+        body.style.backgroundColor = "#f8feff";
         document.getElementById("color-switch-button").style.backgroundImage = "url(./images/colorSwitch.b.png)";
         document.getElementById("intro-image").src = "./images/profile.c.png"
         document.getElementById("Instagram").src = "./images/instagram.c.png";
@@ -18,8 +21,12 @@ function handleColorSwitch() {
         document.getElementById("LinkTree").src = "./images/linktree.c.png";
         document.getElementById("intro-image-and-text").style.backgroundImage = "url(./images/cover.bw02.png)";
         // document.getElementById("intro-text").style.color = "#f0f0f0";
-        document.getElementById("navigation-section").nav.backgroundColor = "#000000";
+        navSection.style.color = "#ffffff";
+        navSection.nav.style.backgroundColor = "#000000";
         // document.getElementById("Instagram").src = "./images/instagram.c.png";
+        
+        // contactSection.div.form.div.div.input.style.backgroundColor = contactSection.div.form.input.style.backgroundColor = contactSection.div.form.div.textarea.style.backgroundColor = "#cfcfcf";
+        
         colorControlSwitch = 1;
     } else {
         document.body.style.color = "#ffffff";
