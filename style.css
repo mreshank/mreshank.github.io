@@ -22,9 +22,9 @@
     font-family: "Excelorate";
     src: url("fonts/Excelorate-Font.otf");
 }
-@keyframes decreaseOpacity {
+@keyframes decreaseOpacityDark {
     from {  background-color: rgb(17, 17, 17);  } 
-    to   {  background-color: rgba(0, 0, 0, 0);  }
+    to   {  background-color: rgb(28, 28, 28)  }
 }
 
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
@@ -39,7 +39,7 @@ body {
     /* background-color: rgb(248, 254, 255); */
     font-family: Invasible;
     scroll-behavior: smooth;
-    /* animation: decreaseOpacity 5s ease-in-out; */
+    animation: decreaseOpacityDark 1.25s ease-in-out;
 }
 section {
     margin-top: 5%;
