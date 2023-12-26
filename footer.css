@@ -1,0 +1,15 @@
+footer>div {
+    color: aliceblue;
+    font-size: 2vw;
+    padding: 2.5vw;
+    padding-inline: 10vw;
+    height: 18vw;
+    width: 100%;
+    border-radius: 2% 2% 0% 0%;
+    background-color: rgb(25, 25, 25);
+}
+footer>div>a {
+    color: aliceblue;
+    font-size: 2vw;
+    text-decoration: none;
+}

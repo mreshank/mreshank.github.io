@@ -24,7 +24,7 @@
 }
 @keyframes decreaseOpacity {
     from {  background-color: rgb(17, 17, 17);  } 
-    to   {  background-color: rgb(28, 28, 28);  }
+    to   {  background-color: rgba(0, 0, 0, 0);  }
 }
 
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
@@ -34,11 +34,12 @@
 }
 body {
     font-style: bold;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: rgb(28, 28, 28);
+    /* background-color: rgb(248, 254, 255); */
     font-family: Invasible;
     scroll-behavior: smooth;
-    animation: decreaseOpacity 5s ease-in-out;
+    /* animation: decreaseOpacity 5s ease-in-out; */
 }
 section {
     margin-top: 5%;
@@ -56,20 +57,21 @@ section {
     cursor: pointer;
     position: fixed;
     z-index: 999;
-    top: 93.75%;
+    top: 90%;
     right: 1.25%;
     background: none;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url("images/color-switch-c.png");
 }
 
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
 
 #navigation-section {
     /* position: absolute; */
+    /* display: top; */
     position: sticky;
     top: 0%;
+    /* backdrop-filter:   unset; */
     /* background-color: aqua; */
 }
 #navigation-section>nav {
@@ -104,7 +106,7 @@ section {
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
 
 #intro-image-and-text {
-    background-image: url(images/cover.png); 
+    /* background-image: url(images/cover.png);  */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -125,8 +127,8 @@ section {
     align-self: center;
     font-size: 3.5vw; 
     font-weight: 900;
-    -webkit-text-stroke-width: 0.75vw; 
-    -webkit-text-stroke-color: rgba(255, 255, 255, 0.045);
+    -webkit-text-stroke-width: 0.6vw; 
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.066);
 }
 
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
