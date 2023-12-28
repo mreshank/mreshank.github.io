@@ -4,11 +4,17 @@
 }
 @font-face {
     font-family: "Invasible";
-    src: url("fonts/Invasible.ttf");
+    src: 
+    url("fonts/Invasible.ttf") format("truetype"),
+    url("fonts/Invasible.otf") format("opentype"),
+    url("fonts/Invasible\ Inline.ttf") format("truetype"),
+    url("fonts/Invasible\ Inline.otf") format("opentype");
 }
 @font-face {
     font-family: "Techno";
-    src: url("fonts/Techno\ Space.ttf");
+    src: 
+    url("fonts/Techno\ Space.ttf") format("truetype")
+    url("fonts/Invasible\ Inline.otf") format("opentype");
 }
 @font-face {
     font-family: "Davinci";
