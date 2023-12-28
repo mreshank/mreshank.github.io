@@ -190,13 +190,13 @@ section {
     margin: 10%;
     margin-top: 1.75%;
     padding: 5vw;
-    border-radius: 1.5%;
+    border-radius: 1.5em;
     justify-content: center;
     box-shadow: 0 0 1.75vw 0 rgb(93, 93, 93);
     background-color: rgba(67, 67, 67, 0.394);
     /* animation: decreaseOpacity 0.75s ease-in-out; */
 }
-#contact-me>form>div>div>input, #contact-me>form>input, #contact-me>form>div>textarea {
+#contact-me>form>div>div>input, #contactNow, #contact-me>form>div>textarea {
     color: white;
     background-color: rgba(24, 24, 24, 0.708);
     padding: 3.5%;
@@ -217,7 +217,7 @@ section {
 #contact-me>form>div>div>input {
     font-size: 1.75vw;
     min-height: 25%;
-    border-radius: 4%;
+    border-radius: 0.8em;
     margin-top: 3%;
     margin-bottom: 3%;
 }
@@ -228,14 +228,14 @@ section {
     min-width: 25%;
     margin-top: 3%;
     margin-bottom: 3%;
-    border-radius: 12%;
+    border-radius: 1.75em;
 }
-#contact-me>form>input {
+#contactNow {
     margin-top: 3%;
     font-family: Davinci;
     font-size: 2.25vw;
     font-weight: 900;
-    border-radius: 3%;
+    border-radius: 3em;
     position: relative;
     left: 32.5%;
     min-width: 35%;
@@ -244,6 +244,6 @@ section {
     box-shadow: 0 0 1.8vw 0 rgba(219, 219, 219, 0.763);
     transition: 0.3s ease box-shadow;
 }
-#contact-me>form>input:hover {
+#contactNow:hover {
     box-shadow: 0 0 1vw 0 rgba(255, 250, 240, 0.66);
 }
