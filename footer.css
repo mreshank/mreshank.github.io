@@ -5,7 +5,7 @@ footer>div {
     padding-inline: 10vw;
     height: 18vw;
     width: 100%;
-    border-radius: 2% 2% 0% 0%;
+    border-radius: 2.5em 2.5em 0 0;
     background-color: rgb(25, 25, 25);
 }
 footer>div>a {

@@ -33,7 +33,11 @@
     to   {  background-color: rgb(28, 28, 28)  }
 }
 
+
+
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
+
+
 
 * {
     box-sizing: border-box;
@@ -42,13 +46,9 @@ body {
     font-style: bold;
     color: rgb(255, 255, 255);
     background-color: rgb(28, 28, 28);
-    /* background-color: rgb(248, 254, 255); */
     font-family: Invasible;
     scroll-behavior: smooth;
     animation: decreaseOpacityDark 1.25s ease-in-out;
-    /* display: grid; */
-  /* grid-template-columns: auto auto;  */
-    /* scroll-behavior: smooth; */
 }
 section {
     margin-top: 5%;
@@ -65,7 +65,7 @@ section {
     outline: none;
     cursor: pointer;
     position: fixed;
-    z-index: 999;
+    z-index: 5;
     top: 90%;
     right: 1.25%;
     background: none;
@@ -74,22 +74,23 @@ section {
     /* margin-top: calc(100vh + var(--offset)); */
 }
 
+
+
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
 
-#navigation-section {
-    /* position: absolute; */
-    /* display: top; */
+
+
+header {
+    z-index: 10;
     position: sticky;
     top: 0%;
-    /* backdrop-filter:   unset; */
-    /* background-color: aqua; */
 }
-#navigation-section>nav {
+header>nav {
     display: flex; 
     width: 100%;
     font-size: 2.5vw;
     margin-top: -5%;
-    margin-bottom: -2.5%;
+    margin-bottom: 2.5em;
     padding-inline: 5vw;
     border-radius: 1.5%;
     background-color: rgba(20, 20, 20, 0.44);
@@ -113,7 +114,11 @@ section {
     color: rgba(211, 211, 211, 0.968);
 }
 
+
+
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
+
+
 
 #intro-image-and-text {
     /* background-image: url(images/cover.png);  */
@@ -130,7 +135,7 @@ section {
 } 
 #intro-text {
     padding: 4%;
-    border-radius: 15%;
+    border-radius: 1.5em;
     box-shadow: 0 0 1vw 0 rgba(164, 164, 164, 0.332);
     background-color: rgba(49, 49, 49, 0.353) ;
     backdrop-filter: blur(0.375vw);
@@ -141,7 +146,11 @@ section {
     -webkit-text-stroke-color: rgba(255, 255, 255, 0.066);
 }
 
+
+
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
+
+
 
 #all-acheivements, #all-socials {
     padding-inline: 3%;
@@ -151,7 +160,7 @@ section {
 }
 .acheivement {
     padding: 5%;
-    border-radius: 15%;
+    border-radius: 0.8em;
     background-color: rgba(240, 248, 255, 0.323);
     box-shadow: 0 0 1.75vw 0 rgb(17, 17, 17);
     justify-content: center;
@@ -160,7 +169,11 @@ section {
     cursor: pointer;
 }
 
+
+
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
+
+
 
 .my-social>a>img {
     position: relative;
@@ -168,7 +181,7 @@ section {
     width: 65%;
     opacity: 75%;
     cursor: pointer;
-    border-radius: 510%;
+    border-radius: 10em;
     box-shadow: 0 0 1.75vw 0 rgba(255, 255, 255, 0.896);
     transition: 0.3s ease box-shadow;
 }
@@ -182,7 +195,11 @@ section {
     margin-right: -3%;
 }
 
+
+
 /* ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ */
+
+
 
 #contact-me {
     display: flex;
