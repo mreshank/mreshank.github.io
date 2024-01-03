@@ -2,24 +2,12 @@
     font-family: "Oregon";
     src: url("assets/fonts/Oregon.ttf");
 }
-/* @font-face {
-    font-family: "Invasible";
-    src: 
-    url("assets/fonts/Invasible.ttf") format("truetype"),
-    url("assets/fonts/Invasible.otf") format("opentype"),
-    url("assets/fonts/Invasible\ Inline.ttf") format("truetype"),
-    url("assets/fonts/Invasible\ Inline.otf") format("opentype");
-} */
 @font-face {
     font-family: "Techno";
     src: 
     url("assets/fonts/Techno\ Space.ttf") format("truetype")
     url("assets/fonts/Invasible\ Inline.otf") format("opentype");
 }
-/* @font-face {
-    font-family: "Davinci";
-    src: url("assets/fonts/Davinci.ttf");
-} */
 @font-face {
     font-family: "FontAwesome";
     src: url("assets/fonts/FontAwesome.otf");
@@ -67,7 +55,6 @@ section {
     margin: 8vmin;
     margin-top: 6.8vmin;
     margin-bottom: 3.5%;
-    /* background-color: aqua; */
 }
 #color-switch-button {
     padding: 2.5%;
@@ -93,8 +80,6 @@ header {
     top: 0%;
     z-index: 10;
     position: sticky;
-    /* max-height: 10vh; */
-    /* background-color: aqua; */
 }
 header>nav {
     display: flex; 
@@ -113,8 +98,6 @@ header>nav {
     position: relative;
     width: 65%;
     padding-right: 4%;
-    /* padding-left: 16.125%; */
-    /* background-color: aqua; */
 }
 #navigation-hyperlinks>a {
     font-size: 1.75vmin;
@@ -153,7 +136,6 @@ header>nav {
     margin-left: 5%;
     width: 50%;
     display: flex;
-    /* background-color: aqua; */
 }
 #intro-image {
     padding: 0;
@@ -211,7 +193,6 @@ header>nav {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    /* background-color: aqua; */
 }
 .my-social>a>img {
     position: relative;
@@ -280,7 +261,6 @@ header>nav {
     color: white;
     display: flex; 
     justify-content: space-evenly;
-    /* background-color: rgba(74, 74, 74, 0.476); */
     width: 100%;
     align-items: center;
     transition: all 0.3s ease-in-out;
@@ -315,7 +295,6 @@ header>nav {
 }
 legend {
     font-size: 1.73vw;
-    /* font-size: 2vmin; */
     font-family: Davinci;
     font-weight: 900;
     position: relative;
@@ -354,7 +333,6 @@ legend {
 
 
 .edu-button {
-    /* font-family: lovelo; */
     padding: 8%;
     font-size: 2vmin;
     font-weight: 500;
@@ -363,23 +341,18 @@ legend {
 #edu-block {
     padding: 6.5%; 
     display: flex;
-    /* background-color: aqua; */
 }
 #education-buttons {
     margin: 1.5%;
     min-width: 25%;
     display: flex;
-    /* padding: 1%; */
     flex-direction: column;
-    /* border-radius: 1em; */
-    /* background-color: blue; */
 }
 #institute-image {
     text-align: justify;
     font-weight: 600;
     font-style: italic;
     font-family: sans-serif;
-    /* height: ; */
     max-height: 90%;
     padding: 5%;
     border-radius: 1em;
@@ -393,8 +366,6 @@ legend {
     position: relative;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.456);
-    /* -webkit-mask-image: linear-gradient(black, black); */
-    /* -webkit-mask-size: 100% 100%; */
 }
 
 
@@ -403,20 +374,16 @@ legend {
 
 
 
-
 #contact-section {
     display: flex;
     justify-content: center;
-    /* background-color: aqua; */
 }
 #contact-me {
     display: flex;
-    /* width: 76vmin; */
     width: 60vw;
     flex-direction: column;
     margin-inline: 10%;
     margin-bottom: 4%;
-    /* margin-top: 2.75em; */
     padding: 4vw;
     border-radius: 1.5em;
     justify-content: center;
@@ -426,7 +393,7 @@ legend {
 }
 #contact-me>form>div>div>input, #contactNow, #contact-me>form>div>textarea {
     color: rgb(255, 255, 255);
-    background-color: rgba(24, 24, 24, 0.71);/*181818b5 */
+    background-color: rgba(24, 24, 24, 0.71);
     padding: 1.25em;
 }
 #contact-me>form>div {
@@ -446,7 +413,6 @@ legend {
     font-size: 1.75vmin;
     min-height: 25%;
     border-radius: 0.8em;
-    /* border: 0; */
     margin-top: 3%;
     margin-bottom: 3%;
 }
@@ -455,7 +421,6 @@ legend {
     min-height: 25%;
     max-height: 20vw;
     min-width: 25%;
-    /* border: 0; */
     margin-top: 3%;
     margin-bottom: 3%;
     border-radius: 1.75em;
@@ -476,5 +441,4 @@ legend {
 #contactNow:hover {
     box-shadow: 0 0 0.5vw 0 rgba(255, 250, 240, 0.66);
 }
-
 

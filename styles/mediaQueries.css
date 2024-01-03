@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1080px) {
     body {
-        color: aqua;
+        /* color: aqua; */
     }
     #intro-text {
         margin-inline: 5%;
@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 720px) {
     body {
-        color: aquamarine;
+        /* color: aquamarine; */
     }
     #UserOptions {
         flex-direction: column;
@@ -59,7 +59,7 @@
 
 @media screen and (max-width: 560px) {
     body {
-        color: rgb(255, 0, 183);
+        /* color: rgb(255, 0, 183); */
     }
     #intro-image-and-text {
         
