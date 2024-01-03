@@ -6,7 +6,7 @@ const firebaseConfig = {
 
 alert("hi");
 // alert( `${{ vars.FIREBASE_API_KEY }}` );
-alert( process.env.FIREBASE_API_KEY );
+alert( process.env.FIREBASE_API );
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
