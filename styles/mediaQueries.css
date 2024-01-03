@@ -1,0 +1,172 @@
+* {
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+@media screen and (min-width: 1081px) {
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+        color: aqua;
+    }
+    #intro-text {
+        margin-inline: 5%;
+        padding: 4%;
+        border-radius: 1.5em;
+        background-color: rgba(49, 49, 49, 0.353) ;
+        align-self: center;
+        font-size: 2.25vw; 
+        font-weight: 900;
+        -webkit-text-stroke-width: 0.6vw; 
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.066);
+    }
+    .my-social>a>img {
+        width: 9.5vmin;
+        max-width: 9.5vmin;
+        transition: all 0.25s ease-in-out;
+    }
+    .my-social>a>img:hover {
+        width: 8.75vmin;
+        max-width: 8.75vmin;
+    }
+    .view-live, .source-code {
+        font-size: 1.5vmin;
+    }
+}
+
+
+
+@media screen and (max-width: 720px) {
+    body {
+        color: aquamarine;
+    }
+    #UserOptions {
+        flex-direction: column;
+        align-items: center;
+    }
+    .UserOptionButtons {
+        width: 70%;
+        padding: 5%;
+        margin-top: 5%;
+        font-size: 65%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    body {
+        color: rgb(255, 0, 183);
+    }
+    #intro-image-and-text {
+        
+        /* width: 100%; */
+        /* backdrop-filter: blur(1); */
+        /* front */
+    }
+    #intro-image-div {
+        margin-left: 5%;
+        width: 90%;
+        max-width: 95vw;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        /* background-color: aqua; */
+    }
+    #intro-image {
+        padding: 0;
+        width: 50%;
+        /* max-width: 10%; */
+    } 
+    #intro-text {
+        /* margin-inline: 5%; */
+        /* padding: 4%; */
+        /* border-radius: 1.5em; */
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+        box-shadow: 0 0 0 rgba(164, 164, 164, 0.332);
+        /* background-color: rgba(49, 49, 49, 0.353) ; */
+        backdrop-filter: blur(0);
+        /* background-color: transparent; */
+        /* align-self: center; */
+        /* font-size: 2.45vmax;  */
+        /* font-weight: 900; */
+        /* -webkit-text-stroke-width: 0.1vw;  */
+        /* -webkit-text-stroke-color: rgba(255, 255, 255, 0.066); */
+    }
+    #UserOptions {
+        width: 0px;
+        visibility: hidden;
+        height: 0px;
+    }
+    #UserOptions-mobile {
+        width: inherit;
+        height: inherit;
+        visibility: visible;
+        align-items: center;
+    }
+    .UserOptionButtons {
+        padding: 8%;
+        /* padding-inline: 6%; */
+        /* border-radius: 10em; */
+        font-size: 80%;
+        max-width: 50%;
+        /* align-items: center;
+        justify-content: center; */
+        /* font-weight: 600; */
+        /* color: rgba(255, 255, 255, 0.8); */
+        /* backdrop-filter: blur(0.4375vw); */
+        /* background-color: rgba(222, 222, 222, 0.2); */
+    }
+    .UserOptionButtons:hover {
+        font-size: 85%;
+    }
+    .UserOptionButtons:active {
+        font-size: 85%;
+        box-shadow: 0 0 1em rgba(255, 255, 255, 0.5);
+    }
+    .section-title {
+        font-size: 6vw;
+        margin: 0.7em;
+        margin-top: 6.8%;
+        margin-bottom: 3.5%;
+    }
+    #intro-image-and-text {
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+        /* display: flex; */
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        /* width: 100%; */
+        /* height: fit-content; */
+        /* max-height: 720px; */
+        /* color: white; */
+        /* font-family: Techno; */
+    }
+    #intro-image {
+        /* size: 50%; */
+        /* margin-left: 5%; */
+        max-width: 70%;
+        /* width: 170em; */
+        /* height: 50%; */
+    } 
+    #intro-text {
+        margin-top: 5%;
+        /* margin-inline: 5%; */
+        /* padding: 4%; */
+        /* border-radius: 1.5em; */
+        /* box-shadow: 0 0 1vw 0 rgba(164, 164, 164, 0.332); */
+        /* background-color: rgba(49, 49, 49, 0.353) ; */
+        /* backdrop-filter: blur(0.375vw); */
+        /* align-self: center; */
+        font-size: 5.75vw; 
+        /* font-weight: 900; */
+        /* -webkit-text-stroke-width: 0.6vw;  */
+        /* -webkit-text-stroke-color: rgba(255, 255, 255, 0.066); */
+    }
+}

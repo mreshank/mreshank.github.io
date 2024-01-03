@@ -5,8 +5,19 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="footer.css">
+    <!-- <meta http-equiv="Refresh" content="0; url='https://www.eshank.co'" /> -->
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediaQueries.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+    <script type="module" src="scripts/db.js"></script>
+    <script src="scripts/script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;1,100&family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
     <title>Personal Portfolio - Eshank Tyagi</title>
 
 </head>
@@ -17,20 +28,28 @@
             <nav>
                 <h1>Mr. Eshank Tyagi</h1>
                 <div id="navigation-hyperlinks">
-                    <a href="#intro-section">About Me</a>
-                    <a href="#acheivements-section">Acheivements</a>
-                    <a href="#socials-section">Socials</a>
-                    <a href="#contact-section">Contact Me</a>
+                    <a href="#projects-title">Projects</a>
+                    <a href="#personal-highlights-title">Highlights</a>
+                    <!-- <a href="#education-title">Education</a> -->
+                    <a href="#contact-title">Contact Me</a>
                 </div>
             </nav>
     </header>
 
+
+
     <main>
 
         <section id = "intro-section" style="margin-top: 5%;">
-            <h1 class="section-title">ABOUT ME</h1>
-            <div id="intro-image-and-text" style="background-image: url(images/cover.png);">
-                <img id="intro-image" src="images/profile.png" alt="">
+            <!-- <h1 class="section-title">ABOUT ME</h1> -->
+            <div id="intro-image-and-text" style="background-image: url(assets/images/cover.png);">
+                <div id="intro-image-div">
+                    <img id="intro-image" src="assets/images/profile.png" alt="">
+                    <div id="UserOptions-mobile">
+                        <button class="HireMeButton UserOptionButtons"> Hire Me? </button>
+                        <button class="GitHubButton UserOptionButtons"> Lets Talk </button>
+                    </div>
+                </div>
                 <div id="intro-text">
                     <p> 
                         HI, <br>
@@ -38,126 +57,183 @@
                         ㅤI am a B.Tech Student  <br>
                         ㅤSCE 4th Semester
                     </p>
+                    <div id="UserOptions">
+                        <a id="HireMeButton" class="UserOptionButtons" href="" target="_blank"> Hire Me ? </a>
+                        <a id="GitHubButton" class="UserOptionButtons" href="https://www.github.com/mreshank" target="_blank"> Github ? </a>
+                    </div>
                 </div>
             </div>
         </section>
-
-        <section id = "acheivements-section">
-            <h1 class="section-title">MY ACHIEVEMENTS</h1>
-            <div id = "all-acheivements">
-                <div id = "acheivement-1" class = "acheivement">
-                    <p>
-                        96% Computer 12th (ICSE)
-                    </p>
-                </div>
-                <div id = "acheivement-2" class = "acheivement">
-                    <p>
-                        6.5K+ followeers on LinkedIn
-                    </p>
-                </div>
-                <div id = "acheivement-3" class = "acheivement">
-                    <p>
-                        5 Star HackerRank in CP (c,j,p)
-                    </p>
-                </div>
-            </div>
-        </section>
-    
+        
+        <!-- <h1 class="section-title">MY SOCIALS</h1> -->
         <section id = "socials-section">
-            <h1 class="section-title">MY SOCIALS</h1>
+            
             <div id = "all-socials">
                 <div class = "my-social">
                     <a href="https://www.instagram.com/mreshank">
-                        <img id = "Instagram" src="images/instagram.png" alt="Instagram Logo">
+                        <img id = "Instagram" src="assets/images/instagram.png" alt="Instagram Logo">
                     </a>
                 </div>
                 <div class = "my-social">
                     <a href="https://www.linkedin.com/in/mreshank">
-                        <img id = "LinkedIn" src="images/linkedin.png" alt="LinkedIn Logo">
+                        <img id = "LinkedIn" src="assets/images/linkedin.png" alt="LinkedIn Logo">
                     </a>
                 </div>
                 <div class = "my-social">
                     <a href="https://www.github.com/mreshank">
-                        <img id = "GitHub" src="images/github.png" alt="GitHub Logo">
+                        <img id = "GitHub" src="assets/images/github.png" alt="GitHub Logo">
                     </a>
                 </div>
                 <div class = "my-social">
                     <a href="https://www.youtube.com/@mreshanktyagi">
-                        <img id = "YouTube" src="images/youtube.png" alt="GitHub Logo">
+                        <img id = "YouTube" src="assets/images/youtube.png" alt="GitHub Logo">
                     </a>
                 </div>
                 <div class = "my-social">
                     <a href="https://wa.me/919456900377">
-                        <img id = "WhatsApp" src="images/whatsapp.png" alt="GitHub Logo">
+                        <img id = "WhatsApp" src="assets/images/whatsapp.png" alt="GitHub Logo">
                     </a>
                 </div>
                 <div class = "my-social">
                     <a href="https://linktr.ee/mreshanktyagi">
-                        <img id = "LinkTree" src="images/linktree.png" alt="GitHub Logo">
+                        <img id = "LinkTree" src="assets/images/linktree.png" alt="GitHub Logo">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <h1 id="projects-title" class="section-title">My Projects</h1>
+        <section> <!-- Projects -->
+            <div class="all-projects">
+                <div id="project-1" class="projects" style="background-image: url(assets/images/pending);">
+                    <legend>Weather App</legend>
+                    <p> This project is a Weather Application that fetches weather data about any entered City and displays basic weather details on a very simple UI screen </p>
+                    <a href="https://weather.eshank.co/" class="view-live" target="_blank">View Live Project</a>
+                    <a href="https://github.com/mreshank/weather" class="source-code" target="_blank">View Source Code</a>
+                </div>
+                <div id="project-2" class="projects" style="background-image: url(assets/images/pending);">
+                    <legend>QR Generator</legend>
+                    <p> This project is a simple QR Code generator web app that usesa an API to form a QR Image from the entered input and provides options to download it too </p>
+                    <a href="https://qr.eshank.co/generator/" class="view-live" target="_blank">View Live Project</a>
+                    <a href="https://github.com/mreshank/QR/tree/main/QR-Generator" class="source-code" target="_blank">View Source Code</a>
+                </div>
+                <div id="project-3" class="projects" style="background-image: url(assets/images/pending);">
+                    <legend>Coffee Machine</legend>
+                    <p> This project focuses on the power of css. It contains the html file and everything shown on screen is created and manipulated only using css and nothing else. </p>
+                    <a href="https://coffeemachine.eshank.co/" class="view-live" target="_blank">View Live Project</a>
+                    <a href="https://github.com/mreshank/CoffeeMachine" class="source-code" target="_blank">View Source Code</a>
+                </div>
+            </div>
+            <div class="all-projects">
+                <div id="project-4" class="projects" style="background-image: url(assets/images/pending);">
+                    <legend>[python] QR App</legend>
+                    <p> This project focuses on the power of python to do complex tasks in very few lines of code. This project can both generate as well as scan a QR code easily. </p>
+                    <a href="" class="source-code" target="_blank">View Source Code</a>
+                </div>
+                <div id="project-5" class="projects" style="background-image: url(assets/images/pending);">
+                    <legend>[python] TTS Emailer</legend>
+                    <p> This project is all about using Python to make cool stuff happen! It contains the scripts to convert speech to text and send that text as an email to any recipient using SMTP </p>
+                    <a href="" class="source-code" target="_blank">View Source Code</a>
+                </div>
+                <div id="project-5" class="projects" style="background-image: url(assets/images/pending);">
+                    <legend> Number Guessing Game </legend>
+                    <p> This project is a GUI based java program that impliments the simple yet cool game of Guessing the right number to win. It requires pre-setup of maven, javafx etc. </p>
+                    <a href="https://github.com/mreshank/OIBSIP/tree/main/Number_Guessing_Game(gui)" class="source-code" target="_blank">View Source Code</a>
+                </div>
+            </div>
+        </section> 
+    
+        <h1 id="personal-highlights-title" class="section-title">Personal Highlights</h1>
+        <section id = "personal-highlights-section">
+            
+            <div id = "all-acheivements">
+                <div id = "acheivement-1" class = "acheivement">
+                    <a href="https://www.eshank.co/journey">
+                        96% in Computer Science : 12th (ICSE)
+                    </a>
+                </div>
+                <div id = "acheivement-2" class = "acheivement">
+                    <a href="https://www.linkedin.com/in/mreshank">
+                        6.8K+ followeers on LinkedIn PLatform
+                    </a>
+                </div>
+                <div id = "acheivement-3" class = "acheivement">
+                    <a href="https://www.hackerrank.com/mreshanktyagi">
+                        5 Star HackerRank in Competetive Programming
                     </a>
                 </div>
             </div>
         </section>
     
+        <!-- <h1 id="education-title" class="section-title">My Education</h1>
+        <section id="education-section">
+            <div id="edu-block">
+                <div id="education-buttons">
+                    <button id="explorin-btn" class="edu-button" style="border-radius: 1.25em 1.25em 0 0;"> Explorin Institute of Dreamers </button>
+                    <button id="shivalik-btn" class="edu-button"> Shivalik College of Engineering </button>
+                    <button id="sunrise-btn" class="edu-button" style="border-radius: 0 0 1.25em 1.25em;"> Sunrise Academy, Dehradun </button>
+                </div>
+                <div id="institute-image">
+                    <p>
+                        I've Been a part of Explorin since September 2023, have learned a lot of things and have acheived a lot too. From getting selected to star coder to coding buddy to rank A student, the journey was memorable and still on-going.
+                    </p>
+                </div>
+            </div>
+        </section> -->
+
+        <h1 class="section-title"></h1>
         <section> <!-- Merchandise and Swags -->
-            <h1 class="section-title"></h1>
             <div>
                 <!--  -->
             </div>
         </section>
     
+        <h1 class="section-title"></h1>
         <section> <!-- Awards and Recognitions -->
-            <h1 class="section-title"></h1>
             <div>
                 <!--  -->
             </div>
         </section>
-    
+        
+        <h1 class="section-title"></h1>
         <section> <!-- Certificates and Earns -->
-            <h1 class="section-title"></h1>
             <div>
                 <!--  -->
             </div>
         </section>
-    
+        
+        <h1 id="contact-title" class="section-title">CONTACT ME</h1>
         <section id = "contact-section">
-            <h1 class="section-title">CONTACT ME</h1>
             <div id = "contact-me">
-                <form action="">
-                    <div>
+                <form onsubmit="return submitContactForm()" target="_blank">
+                    <div id="contactMeInputField">
                         <div>
-                            <input type="text" placeholder="Enter Your Name">
-                            <input type="email" placeholder="Enter Your Email Address">
-                            <input type="text" placeholder="Enter the Subject">
+                            <input id="nameInput" type="text" placeholder="Enter Your Name">
+                            <input id="emailInput" type="email" placeholder="Enter Your Email Address">
+                            <input id="subjectInput" type="text" placeholder="Enter the Subject">
                         </div>
-                        <!-- <textarea name="contact-message" id="" cols="30%" rows="10%" placeholder="Enter Your Message Here..."></textarea> -->
-                        <textarea name="contact-message" placeholder="Enter Your Message Here..."></textarea>
+                        <textarea id="messageInput" name="contact-message" placeholder="Enter Your Message Here..."></textarea>
                     </div>
-                    <!-- <input id="contactNow" type="submit" value="Contact Now !">  -->
-                    <Button id="contactNow"> Contact Now ! </Button>
+                    <Button onclick="return submitContactForm()" type="reset" id="contactNow"> Contact Now </Button>
                 </form>
             </div>
-            <!-- <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea> -->
         </section>
 
-        <!-- <script src="script.js"></script> -->
-
-        <button onclick="handleColorSwitch()" id="color-switch-button" type="button" style="background-image: url(images/colorSwitch.c.png);"></button>
+        <!-- <button onclick="handleColorSwitch()" id="color-switch-button" type="button" style="background-image: url(assets/images/colorSwitch.c.png);"></button> -->
 
     </main>
     
+
+
     <footer>
         <!-- <div id = "footer-div"> -->
         <div>
             <h3>
-                Made with ❤️ by Eshank Tyagi
+                Made with ❤️ by Eshank Tyagi <br> <h5> Copyright © 2024 privately owned by Eshank Tyagi </h5> </h3> 
             </h3>
-            <a href="#top"><img src="images/arrow_upward.svg" alt="Go to Top"/></a>
+            <a href="#top"><img src="assets/images/up.arrow.png" style="width:2em;" alt="Go to Top"/>Go to Top</a>
         </div>
     </footer>
-    
-    <script type="module" src="./db.js"></script>
-    <script src="./script.js"></script>
     
 </body>
 
