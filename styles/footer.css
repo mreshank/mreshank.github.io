@@ -8,11 +8,13 @@ footer>div {
     border-radius: 2.5em 2.5em 0 0;
     background-color: rgb(25, 25, 25);
 }
+
 footer>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 footer>div>a {
     color: aliceblue;
     font-size: 2vmin;

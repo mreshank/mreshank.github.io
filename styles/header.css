@@ -1,0 +1,41 @@
+header {
+    top: 0%;
+    z-index: 10;
+    position: sticky;
+}
+
+header>nav {
+    display: flex; 
+    width: 100%;
+    max-height: 10vh;
+    font-size: 2.25vmin;
+    margin-top: -5%;
+    padding-left: 5vw;
+    justify-content: space-between;
+    border-radius: 0 0 .5em .5em;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(20, 20, 20, 0.44);
+}
+
+#navigation-hyperlinks {
+    text-align: right;
+    position: relative;
+    width: 65%;
+    padding-right: 4%;
+}
+
+#navigation-hyperlinks>a {
+    font-size: 1.75vmin;
+    position: relative;
+    top: 35%;
+    padding: 1vw;
+    text-decoration: solid ;
+    color: rgba(211, 211, 211, 0.968);
+}
+
+#navigation-hyperlinks>a:hover {
+    color: rgba(255, 255, 255, 0.966);
+    box-shadow: 0 0 0.375em 0 rgba(181, 181, 181, 0.527);
+    background-color: rgba(121, 121, 121, 0.142);
+    border-radius: 5em;
+}
