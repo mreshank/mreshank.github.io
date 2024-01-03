@@ -68,9 +68,10 @@ Technologies used in the project:
 
 The repository has the following folder structure:
 
-- `css/`: Contains the CSS stylesheets for the website.
-- `js/`: Contains the JavaScript files for the website.
-- `images/`: Contains the images used in the website.
+- `styles/`: Contains the CSS stylesheets for the website.
+- `scripts/`: Contains the JavaScript files for the website.
+- `assets/fonts`: Contains some special fonts to be loaded into the website.
+- `assets/images`: Contains the images used in the website.
 - `index.html`: The main HTML file for the website.
 
 </br>
