@@ -121,4 +121,7 @@
         margin-top: 5%;
         font-size: 5.75vw; 
     }
+    .break>img {
+        content: url(../assets/images/strip-m.png);
+    }
 }
