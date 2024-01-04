@@ -1,16 +1,12 @@
-function hello() {
-    alert("Hello, World!");
-}
+const body = document.body;
+// const navSection = document.querySelector("header");
+// const contactSection = document.getElementById("contact-section");
+const contactInputs = document.querySelectorAll("#contactNow, #contactMeInputField > div > input, #contactMeInputField > textarea");
+const projects = document.querySelectorAll(".projects");
 
 let colorControlSwitch = 0
 
-const body = document.body;
-const navSection = document.querySelector("header");
-const contactSection = document.getElementById("contact-section");
-const contactInputs = document.querySelectorAll("#contactNow, #contactMeInputField > div > input, #contactMeInputField > textarea")
-
 function handleColorSwitch() {
-
     if(colorControlSwitch == 0) {
         colorControlSwitch = 1
         body.style.color = "#000000";
@@ -24,9 +20,19 @@ function handleColorSwitch() {
         document.getElementById("WhatsApp").src = "./assets/images/whatsapp.c.png";
         document.getElementById("LinkTree").src = "./assets/images/linktree.c.png";
         document.getElementById("intro-image-and-text").style.backgroundImage = "url(./assets/images/cover.bw.jpg)";
-        navSection.nav.style.backgroundColor = "#1a252760";
-        contactInputs.style.color = "#101010";
-        contactInputs.style.backgroundColor = "#cfcfcfb5";
+        
+        contactInputs.forEach((item) => {
+            item.style.color = "#101010";
+            item.style.backgroundColor = "#cfcfcfb5"; 
+        });
+
+        projects.forEach((item) => {
+            item.style.color = "#000000";
+            item.style.backgroundColor = "#eaf0f5ce"; 
+        });
+        
+        // document.querySelector(".projects").style.backgroundColor = "#eaf0f5";
+        // document.querySelector(".projects").style.boxShadow = "0 0 1vmin rgba(1, 1, 1, 0.3)";        
     } else {
         colorControlSwitch = 0;
         body.style.color = "#ffffff";
@@ -40,9 +46,20 @@ function handleColorSwitch() {
         document.getElementById("WhatsApp").src = "./assets/images/whatsapp.png";
         document.getElementById("LinkTree").src = "./assets/images/linktree.png";
         document.getElementById("intro-image-and-text").style.backgroundImage = "url(./assets/images/cover.png)";
-        navSection.nav.style.backgroundColor = "#14141470";
-        contactInputs.style.color = "#ffffff";
-        contactInputs.style.backgroundColor = "#181818b5";
+        // navSection.nav.style.backgroundColor = "#14141470";
+        // contactInputs.style.color = "#ffffff";
+        // contactInputs.style.backgroundColor = "#181818b5";
+
+        contactInputs.forEach((item) => {
+            item.style.color = "#ffffff";
+            item.style.backgroundColor = "#181818b5"; 
+        });
+
+        projects.forEach((item) => {
+            item.style.color = "#ffffff";
+            item.style.backgroundColor = "#4c4c4ccc"; 
+        });
+
     }
 }
 

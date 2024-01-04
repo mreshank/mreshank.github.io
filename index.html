@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="styles/mediaQueries.css">
     <link rel="stylesheet" href="styles/footer.css">
 
-    <script type="module" src="scripts/db.js"></script>
-    <script src="scripts/script.js"></script>
+    <script type="module" src="scripts/contact.js"></script>
+    <script src="scripts/education.js"></script>
+    <!-- <script src="scripts/colorSwitch.js"></script> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +32,7 @@
                 <div id="navigation-hyperlinks">
                     <a href="#projects-title">Projects</a>
                     <a href="#personal-highlights-title">Highlights</a>
-                    <!-- <a href="#education-title">Education</a> -->
+                    <a href="#education-title">Education</a>
                     <a href="#contact-title">Contact Me</a>
                 </div>
             </nav>
@@ -166,21 +167,19 @@
             </div>
         </section>
     
-        <!-- <h1 id="education-title" class="section-title">My Education</h1>
+        <h1 id="education-title" class="section-title">My Education</h1>
         <section id="education-section">
             <div id="edu-block">
                 <div id="education-buttons">
-                    <button id="explorin-btn" class="edu-button" style="border-radius: 1.25em 1.25em 0 0;"> Explorin Institute of Dreamers </button>
-                    <button id="shivalik-btn" class="edu-button"> Shivalik College of Engineering </button>
-                    <button id="sunrise-btn" class="edu-button" style="border-radius: 0 0 1.25em 1.25em;"> Sunrise Academy, Dehradun </button>
+                    <button onclick="explorinClick()" id="explorin-btn" class="edu-button" style="border-radius: 1.25em 1.25em 0 0;"> Explorin Institute of Dreamers </button>
+                    <button onclick="shivalikClick()" id="shivalik-btn" class="edu-button"> Shivalik College of Engineering </button>
+                    <button onclick="sunriseClick()" id="sunrise-btn" class="edu-button" style="border-radius: 0 0 1.25em 1.25em;"> Sunrise Academy, Dehradun </button>
                 </div>
                 <div id="institute-image">
-                    <p>
-                        I've Been a part of Explorin since September 2023, have learned a lot of things and have acheived a lot too. From getting selected to star coder to coding buddy to rank A student, the journey was memorable and still on-going.
-                    </p>
+                    <p id="edu-para"> <br>Education : Web Development [Full Stack]<br><br>Experience : I've Been a part of Explorin since September 2023, have learned a lot of things and have acheived a lot too. From getting selected to star coder to coding buddy to rank A student, the journey was memorable and still on-going. </p>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <h1 class="section-title"></h1>
         <section> <!-- Merchandise and Swags -->
@@ -220,7 +219,7 @@
             </div>
         </section>
 
-        <!-- <button onclick="handleColorSwitch()" id="color-switch-button" type="button" style="background-image: url(assets/images/colorSwitch.c.png);"></button> -->
+        <button onclick="handleColorSwitch()" id="color-switch-button" type="button" style="background-image: url(assets/images/colorSwitch.c.png);"></button>
 
     </main>
     
@@ -236,6 +235,8 @@
         </div>
     </footer>
     
+    <script src="scripts/colorSwitch.js"></script>
+
 </body>
 
 </html>
