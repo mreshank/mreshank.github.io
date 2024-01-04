@@ -121,6 +121,9 @@
         margin-top: 5%;
         font-size: 5.75vw; 
     }
+    .break {
+        animation: break 30s linear infinite;
+    }
     .break>img {
         content: url(../assets/images/strip-m.png);
     }
