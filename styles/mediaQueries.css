@@ -121,4 +121,17 @@
         margin-top: 5%;
         font-size: 5.75vw; 
     }
+
+    .break {
+        visibility: collapse;
+        opacity: 33%;
+        margin-top: 5.75vmin;
+        margin-bottom: 3vmin;
+        transform: translate(0, 0);
+        display: flex;
+        animation: break 60s linear infinite;
+    }
+    /* .break, .break>img{
+        width: 100vw;
+    } */
 }
