@@ -200,7 +200,7 @@ section {
 }
 .acheivement>a {
     text-decoration: solid ;
-    color: rgba(255, 255, 255, 0.968);
+    color: #fffffff7;
 }
 .acheivement:hover {
     box-shadow: 0 0 0.5em 0 rgba(255, 255, 255, 0.35 );
@@ -311,7 +311,7 @@ legend {
     font-size: 2vmin;
     font-weight: 600;
     margin-bottom: 1.5%;
-    box-shadow: 0 0 0.275em white;
+    box-shadow: 0 0 0.275em #ffffff80;
     background-color: #3c3c3c;
 }
 #explorin-btn {
@@ -333,7 +333,7 @@ legend {
     margin-inline: 5%;
     border-radius: 2.75vmin;
     
-    box-shadow: 0 0 0.325em white;
+    box-shadow: 0 0 0.5em #ffffff80;
     background-image: url(../assets/images/explorin-inst.b.jpg);
     background-position: top center;
     background-repeat: no-repeat;

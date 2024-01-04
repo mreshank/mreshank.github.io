@@ -28,16 +28,20 @@ function handleColorSwitch() {
 
         projects.forEach((item) => {
             item.style.color = "#000000";
-            item.style.backgroundColor = "#eaf0f5ce"; 
+            item.style.backgroundColor = "#e0f0f5ce"; 
         });
+
+        document.querySelectorAll(".acheivement>a").forEach((item) => {
+            item.style.color = "#000000f7";
+        })
 
         document.querySelectorAll(".edu-button").forEach((item) => {
             item.style.color = "#000000";
+            item.style.boxShadow = "0 0 0.275em #00000080";
         });
         document.querySelector("#edu-para").style.color = "#000000";
         document.querySelector("#edu-para").style.backgroundImage = "linear-gradient(rgba(210, 210, 210, 0.4), rgba(150, 150, 150, 0.8))";
-        // document.querySelector("#institute-image").style
-
+        document.getElementById("institute-image").style.boxShadow =  "0 0 0.5em #00000080";
             
     } else {
         colorControlSwitch = 0;
@@ -63,11 +67,17 @@ function handleColorSwitch() {
             item.style.backgroundColor = "#4c4c4ccc"; 
         });
 
+        document.querySelectorAll(".acheivement>a").forEach((item) => {
+            item.style.color = "#fffffff7";
+        })
+
         document.querySelectorAll(".edu-button").forEach((item) => {
             item.style.color = "#ffffff";
+            item.style.boxShadow = "0 0 0.275em #ffffff80";
         });
         document.querySelector("#edu-para").style.color = "#ffffff";
         document.querySelector("#edu-para").style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.35))";
+        document.getElementById("institute-image").style.boxShadow =  "0 0 0.5em #ffffff80";
         // document.querySelector
 
     }
