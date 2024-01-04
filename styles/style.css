@@ -474,7 +474,7 @@ body {
     margin-bottom: 3vmin;
     transform: translate(0, 0);
     display: flex;
-    animation: break 6s linear infinite;
+    animation: break 60s linear infinite;
 }
 .break, .break>img{
     width: 100vw;
