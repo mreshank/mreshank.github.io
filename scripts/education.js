@@ -48,7 +48,7 @@ function explorinClick() {
         document.getElementById("institute-image").style.backgroundImage = "url(../assets/images/explorin-inst.b.jpg)";
         document.querySelector("#edu-para").innerHTML = eduParas[0];
     } else {
-        document.getElementById("explorin-btn").style.backgroundColor = "#1bb809c5";
+        document.getElementById("explorin-btn").style.backgroundColor = "#14ee6fd9";
         document.getElementById("institute-image").style.backgroundImage = "url(../assets/images/explorin-inst.jpg)";
         document.querySelector("#edu-para").innerHTML = eduParas[0];
     }
@@ -62,7 +62,7 @@ function shivalikClick() {
         document.getElementById("institute-image").style.backgroundImage = "url(../assets/images/shivalik-inst.b.jpg)";
         document.querySelector("#edu-para").innerHTML = eduParas[1];
     } else {
-        document.getElementById("shivalik-btn").style.backgroundColor = "#1bb809c5";
+        document.getElementById("shivalik-btn").style.backgroundColor = "#14ee6fd9";
         document.getElementById("institute-image").style.backgroundImage = "url(../assets/images/shivalik-inst.jpg)";
         document.querySelector("#edu-para").innerHTML = eduParas[1];
     }
@@ -76,7 +76,7 @@ function sunriseClick() {
         document.getElementById("institute-image").style.backgroundImage = "url(../assets/images/sunrise-acad.b.jpg)";
         document.querySelector("#edu-para").innerHTML = eduParas[2];
     } else {
-        document.getElementById("sunrise-btn").style.backgroundColor = "#1bb809c5";
+        document.getElementById("sunrise-btn").style.backgroundColor = "#14ee6fd9";
         document.getElementById("institute-image").style.backgroundImage = "url(../assets/images/sunrise-acad.jpg)";
         document.querySelector("#edu-para").innerHTML = eduParas[2];
     }

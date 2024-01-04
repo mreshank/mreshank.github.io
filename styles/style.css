@@ -42,6 +42,7 @@ body {
     font-style: bold;
     color: rgb(255, 255, 255);
     background-color: rgb(28, 28, 28);
+    /* background-color: rgb(255, 255, 255); */
     font-family: Invasible;
     scroll-behavior: smooth;
     transition: all 0.3s ease-in-out;
@@ -189,10 +190,11 @@ section {
 .acheivement {
     font-family: Ubuntu;
     padding: 5%;
-    border-radius: 0.8em;
+    border-radius: 1.25em;
     text-align: center;
-    background-color: rgba(240, 248, 255, 0.323);
-    box-shadow: 0 0 1.5vw 0 rgb(17, 17, 17);
+    background-color: #f0f8ff52;
+    /* background-color: #14ee6fd9; */
+    box-shadow: 0 0 1.5vw 0 rgba(17, 17, 17, 0.6);
     justify-content: space-evenly;
     font-size: 2.85vmin;
     margin-inline: 2%;

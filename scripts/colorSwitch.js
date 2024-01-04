@@ -28,11 +28,14 @@ function handleColorSwitch() {
 
         projects.forEach((item) => {
             item.style.color = "#000000";
-            item.style.backgroundColor = "#e0f0f5ce"; 
+            item.style.backgroundColor = "#e0f0f0c9"; 
         });
 
         document.querySelectorAll(".acheivement>a").forEach((item) => {
             item.style.color = "#000000f7";
+        })
+        document.querySelectorAll(".acheivement").forEach((item) => {
+            item.style.backgroundColor = "#eed51490";
         })
 
         document.querySelectorAll(".edu-button").forEach((item) => {
@@ -69,6 +72,9 @@ function handleColorSwitch() {
 
         document.querySelectorAll(".acheivement>a").forEach((item) => {
             item.style.color = "#fffffff7";
+        })
+        document.querySelectorAll(".acheivement").forEach((item) => {
+            item.style.backgroundColor = "#f0f8ff52";
         })
 
         document.querySelectorAll(".edu-button").forEach((item) => {
