@@ -456,8 +456,10 @@ legend {
     }
 }
 html {
-    overflow: hidden;
-    overflow-y: scroll;
+    overflow-x:visible;
+    /* overflow-x: hidden; */
+    /* overflow-y: scroll; */
+    /* -webkit-overflow-scrolling:auto; */
 }
 body {
     overflow-x: hidden;
