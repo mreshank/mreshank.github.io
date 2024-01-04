@@ -243,7 +243,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-color: #eaf0f2ce; */
+    /* background-color: rgba(205, 205, 205, 0.078); */
 }
 .projects:hover {
     border-radius: 2em;
@@ -291,6 +291,7 @@ legend {
 
 
 #edu-block {
+    /* animation: all 0s ease-in-out; */
     margin-block: 2.5%;
     padding-inline: 5%; 
     display: flex;
@@ -308,13 +309,14 @@ legend {
     color: white;
     padding: 8%;
     font-size: 2vmin;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 1.5%;
     box-shadow: 0 0 0.275em white;
     background-color: #3c3c3c;
 }
 #explorin-btn {
     background-color: #c4c4c480;
+    /* background-color: ; */
 }
 #institute-image {
     text-align: start;
@@ -331,6 +333,7 @@ legend {
     margin-inline: 5%;
     border-radius: 2.75vmin;
     
+    box-shadow: 0 0 0.325em white;
     background-image: url(../assets/images/explorin-inst.b.jpg);
     background-position: top center;
     background-repeat: no-repeat;
@@ -344,7 +347,8 @@ legend {
     font-size: 2vmin;
     border-radius: 2.7vmin;
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.25));
+    /* animation: all 0.2s ease-in-out; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.35));
 }
 
 
