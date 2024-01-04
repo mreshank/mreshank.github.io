@@ -372,8 +372,9 @@ legend {
     padding: 4vw;
     border-radius: 1.5em;
     justify-content: center;
-    box-shadow: 0 0 1.75vw 0 rgb(93, 93, 93);
-    background-color: rgba(67, 67, 67, 0.394);
+    box-shadow: 0 0 0.75vw 0 rgb(93, 93, 93);
+    /* background-color: rgba(67, 67, 67, 0.394); */
+    background-color: rgba(67, 67, 67, 0.65);
     /* animation: decreaseOpacity 0.75s ease-in-out; */
 }
 #contact-me>form>div>div>input, #contactNow, #contact-me>form>div>textarea {
