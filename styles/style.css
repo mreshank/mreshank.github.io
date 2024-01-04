@@ -59,8 +59,8 @@ body {
     /* background-color: rgb(255, 255, 255); */
     font-family: Invasible;
     scroll-behavior: smooth;
-    overflow-x: hidden;
-    overscroll-behavior-x:contain;
+    /* overflow-x: hidden; */
+    /* overscroll-behavior-x:contain; */
     transition: all 0.3s ease-in-out;
     animation: decreaseOpacityDark 1.25s ease-in-out;
 }
@@ -455,13 +455,26 @@ legend {
         transform: translate(-100%, 0);
     }
 }
+html {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    max-width: 100vw;
+    /* overflow-wrap: break-word; */
+    overscroll-behavior-x: contain;
+    /* overflow-block:clip; */
+}
 .break {
     opacity: 33%;
+    /* overflow: hidden; */
     margin-top: 5.75vmin;
     margin-bottom: 3vmin;
     transform: translate(0, 0);
     display: flex;
-    animation: break 60s linear infinite;
+    animation: break 6s linear infinite;
 }
 .break, .break>img{
     width: 100vw;
