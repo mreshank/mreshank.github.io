@@ -481,3 +481,8 @@ body {
 .break, .break>img{
     width: 100vw;
 }
+
+
+:target {
+    opacity: 75%;
+}
