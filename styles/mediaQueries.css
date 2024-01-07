@@ -57,8 +57,13 @@
 
 
 @media screen and (max-width: 560px) {
+    html {
+        width: 100vw;
+        overflow-x: hidden;
+    }
     body {
         /* color: rgb(255, 0, 183); */
+        overflow-block:clip;
     }
     #intro-image-and-text {
     }
