@@ -39,6 +39,9 @@
 
 
 @media screen and (max-width: 720px) {
+    body {
+        margin: 0;
+    }
     #UserOptions {
         flex-direction: column;
         align-items: center;

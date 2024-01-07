@@ -43,26 +43,28 @@
 
 * {
     border: none;
-    outline: none;
+    outline: none; 
     box-sizing: border-box;
     scroll-behavior: smooth;
     transition: all 0.2s ease-in-out;
 }
 a {
     text-decoration: none;
+    color: white;
     color: inherit;
 }
 body {
     font-style: bold;
     color: rgb(255, 255, 255);
     background-color: rgb(28, 28, 28);
-    /* background-color: rgb(255, 255, 255); */
     font-family: Invasible;
     scroll-behavior: smooth;
-    /* overflow-x: hidden; */
-    /* overscroll-behavior-x:contain; */
     transition: all 0.3s ease-in-out;
     animation: decreaseOpacityDark 1.25s ease-in-out;
+}
+main {
+    max-width: 100vw;
+    overflow: hidden;
 }
 section {
     margin-top: 5%;
