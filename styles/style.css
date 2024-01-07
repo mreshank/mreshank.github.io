@@ -341,7 +341,7 @@ legend {
 #institute-image {
     text-align: start;
     align-items: center;
-    font-weight: 600;
+    font-weight: 500;
     font-family: Ubuntu;
     width: 60%;
     max-width: 55%;
@@ -367,6 +367,7 @@ legend {
     font-size: 2vmin;
     border-radius: 2vmin;
     background-size: cover;
+    backdrop-filter: brightness(75%);
     /* animation: all 0.2s ease-in-out; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.35));
 }
