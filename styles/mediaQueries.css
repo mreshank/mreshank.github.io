@@ -123,3 +123,10 @@
         content: url(../assets/images/strip-m.png);
     }
 }
+
+
+@media screen and (min-width: 720px) {
+    body {
+        margin: 0;
+    }
+}
