@@ -1,14 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
 const firebaseConfig = {
-    apiKey: "AIzaSyDJ6NUqVDMW0AZBqm1UAZQu8ZNY-0ob_BA",
-    authDomain: "mreshank-personal-portfolio-gh.firebaseapp.com",
-    databaseURL: "https://mreshank-personal-portfolio-gh-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "mreshank-personal-portfolio-gh",
-    storageBucket: "mreshank-personal-portfolio-gh.appspot.com",
-    messagingSenderId: "996854783104",
-    appId: "1:996854783104:web:6ec6622ed0bf81da361a65",
-    measurementId: "G-VMH1P167K8"
+    /* COPY PASTE YOUR YOUR FIREBASE CONFIGURATION DATA HERE */
 };
 
 const app = initializeApp(firebaseConfig);
