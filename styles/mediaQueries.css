@@ -41,14 +41,18 @@
 @media screen and (max-width: 720px) {
     body {
         /* color: aquamarine; */
+        padding: 0;
+        margin: 0;
     }
     html {
+        padding: 0;
+        margin: 0;
         width: 100vw;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     body {
         /* color: rgb(255, 0, 183); */
-        overflow-block:clip;
+        overflow-block: hidden;
     }
     #UserOptions {
         flex-direction: column;
@@ -67,11 +71,12 @@
 @media screen and (max-width: 560px) {
     html {
         width: 100vw;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     body {
+
         /* color: rgb(255, 0, 183); */
-        overflow-block:clip;
+        overflow-block: hidden;
     }
     #intro-image-and-text {
     }
