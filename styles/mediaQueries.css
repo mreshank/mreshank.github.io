@@ -42,6 +42,14 @@
     body {
         /* color: aquamarine; */
     }
+    html {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    body {
+        /* color: rgb(255, 0, 183); */
+        overflow-block:clip;
+    }
     #UserOptions {
         flex-direction: column;
         align-items: center;
