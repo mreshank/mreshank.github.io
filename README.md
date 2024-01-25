@@ -1,8 +1,8 @@
-<a href="https://www.eshank.co/" style="text-decoration:none; color:white"><h1 align="center" id="title">Personal Portfolio Website</h1></a>
+<a href="https://www.eshank.biz/" style="text-decoration:none; color:white"><h1 align="center" id="title">Personal Portfolio Website</h1></a>
 
-<p align="center"><a href="https://www.eshank.co/"><img src="https://socialify.git.ci/mreshank/mreshank.github.io/image?font=Source%20Code%20Pro&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;stargazers=1&amp;theme=Dark" alt="project-image"></a></p>
+<p align="center"><a href="https://www.eshank.biz/"><img src="https://socialify.git.ci/mreshank/mreshank.github.io/image?font=Source%20Code%20Pro&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;stargazers=1&amp;theme=Dark" alt="project-image"></a></p>
 
-<p id="description"> Welcome to my personal portfolio website! This repository contains the source code and implementations for my portfolio website, which is built using HTML, CSS, and JavaScript. It is hosted on : <a href="https://www.eshank.co/">https://www.eshank.co</a> or simply <a href="https://www.eshank.co/">eshank.co</a> .</p>
+<p id="description"> Welcome to my personal portfolio website! This repository contains the source code and implementations for my portfolio website, which is built using HTML, CSS, and JavaScript. It is hosted on : <a href="https://www.eshank.biz/">https://www.eshank.biz</a> or simply <a href="https://www.eshank.biz/">eshank.co</a> .</p>
 
 </br>
 
@@ -39,7 +39,7 @@ Here're some of the project's best features:
 
 <h4> To view the website live / online: </h4>
 <pre>
-<h5> 1. Go to <a href="https://www.eshank.co/">https://www.eshank.co/</a>
+<h5> 1. Go to <a href="https://www.eshank.biz/">https://www.eshank.biz/</a>
 </pre>
 
 <h4> To run the website locally, follow these steps: </h4>
