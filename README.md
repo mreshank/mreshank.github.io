@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://www.eshank.biz/"><img src="https://socialify.git.ci/mreshank/mreshank.github.io/image?font=Source%20Code%20Pro&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Circuit%20Board&amp;stargazers=1&amp;theme=Dark" alt="project-image"></a></p>
 
-<p id="description"> Welcome to my personal portfolio website! This repository contains the source code and implementations for my portfolio website, which is built using HTML, CSS, and JavaScript. It is hosted on : <a href="https://www.eshank.biz/">https://www.eshank.biz</a> or simply <a href="https://www.eshank.biz/">eshank.bix</a> .</p>
+<p id="description"> Welcome to my personal portfolio website! This repository contains the source code and implementations for my portfolio website, which is built using HTML, CSS, and JavaScript. It is hosted on : <a href="https://www.eshank.biz/">https://www.eshank.biz</a> or simply <a href="https://www.eshank.biz/">eshank.biz</a> .</p>
 
 </br>
 
